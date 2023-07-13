@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/decidim/decidim.git
-  revision: ed620fda2f007822c6f171e284d1b9dce3b3788d
-  branch: feature/redesign-staging
+  revision: ff5e07598a136b934db23755aea0fe003d2f6ef3
+  branch: feature/redesign-admin
   specs:
     decidim (0.28.0.dev)
       decidim-accountability (= 0.28.0.dev)

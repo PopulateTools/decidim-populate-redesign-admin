@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 
 ruby RUBY_VERSION
 REPO = 'https://github.com/decidim/decidim.git'
-BRANCH = 'feature/redesign-staging'
+BRANCH = 'feature/redesign-admin'
 
 gem 'decidim', git: REPO, branch: BRANCH
 gem 'decidim-conferences', git: REPO, branch: BRANCH
