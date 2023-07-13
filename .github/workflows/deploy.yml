@@ -20,5 +20,5 @@ jobs:
         with:
           # specify the `main` branch as the remote branch to push to
           branch: 'main'
-          git_remote_url: 'ssh://dokku@server-staging03.populate.tools/~/decidim-populate-redesign'
+          git_remote_url: 'ssh://dokku@server-staging03.populate.tools/~/decidim-populate-redesign-admin'
           ssh_private_key: ${{ secrets.DOKKU_DEPLOY_SSH_KEY }}

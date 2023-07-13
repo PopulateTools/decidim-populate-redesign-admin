@@ -24,7 +24,7 @@ jobs:
         id: check-sha
         run: |
           LOCAL_DECIDIM_SHA=$(grep revision Gemfile.lock | awk '{print $2}')
-          REMOTE_DECIDIM_SHA=$(git ls-remote https://github.com/decidim/decidim.git | grep feature/redesign-staging | awk '{print $1}')
+          REMOTE_DECIDIM_SHA=$(git ls-remote https://github.com/decidim/decidim.git | grep feature/redesign-admin | awk '{print $1}')
           echo "Local hash: ${LOCAL_DECIDIM_SHA}";
           echo "Remote hash: ${REMOTE_DECIDIM_SHA}";
           if [[ "${LOCAL_DECIDIM_SHA}" == "${REMOTE_DECIDIM_SHA}" ]]; then
@@ -53,7 +53,7 @@ jobs:
           node-version: 16.13.0
       - name: Get npm cache directory path
         id: npm-cache-dir-path
-        run: echo "dir=$(npm get cache)-decidim-populate-redesign" >> $GITHUB_OUTPUT;
+        run: echo "dir=$(npm get cache)-decidim-populate-redesign-admin" >> $GITHUB_OUTPUT;
         shell: "bash"
       - uses: actions/cache@v3
         id: npm-cache
@@ -76,5 +76,5 @@ jobs:
         with:
           # specify the `main` branch as the remote branch to push to
           branch: 'main'
-          git_remote_url: 'ssh://dokku@server-staging03.populate.tools/~/decidim-populate-redesign'
+          git_remote_url: 'ssh://dokku@server-staging03.populate.tools/~/decidim-populate-redesign-admin'
           ssh_private_key: ${{ secrets.DOKKU_DEPLOY_SSH_KEY }}
