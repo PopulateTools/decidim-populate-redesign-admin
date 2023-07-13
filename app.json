@@ -1,0 +1,20 @@
+{
+  "name": "decidim-redesign",
+  "description": "Decidim Redesign",
+  "cron": [
+    {
+      "command": "bundle exec rake decidim:open_data:export",
+      "schedule": "0 1 * * *"
+    },
+    {
+      "command": "bundle exec rake decidim:metrics:all",
+      "schedule": "0 3 * * *"
+    }
+  ],
+  "scripts": {
+    "dokku": {
+      "predeploy": "bundle exec rails decidim:webpacker:install",
+      "postdeploy": "bundle exec rails db:migrate"
+    }
+  }
+}
