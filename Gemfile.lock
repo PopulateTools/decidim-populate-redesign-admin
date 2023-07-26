@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/decidim/decidim.git
-  revision: 68d8a1b98a618541a315fed0bd740866db7dbb71
+  revision: d85e33cdd2d2efb38033cb7cc590b02603c664a7
   branch: feature/redesign-admin
   specs:
     decidim (0.28.0.dev)
@@ -532,7 +532,7 @@ GEM
     multi_xml (0.6.0)
     multipart-post (2.3.0)
     mustache (1.1.1)
-    net-imap (0.3.6)
+    net-imap (0.3.7)
       date
       net-protocol
     net-pop (0.1.2)
