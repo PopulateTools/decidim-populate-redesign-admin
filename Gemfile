@@ -8,7 +8,6 @@ BRANCH = 'feature/redesign-admin'
 
 gem 'decidim', git: REPO, branch: BRANCH
 gem 'decidim-conferences', git: REPO, branch: BRANCH
-gem 'decidim-consultations', git: REPO, branch: BRANCH
 gem 'decidim-elections', git: REPO, branch: BRANCH
 gem 'decidim-initiatives', git: REPO, branch: BRANCH
 gem 'decidim-templates', git: REPO, branch: BRANCH
