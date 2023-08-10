@@ -787,7 +787,7 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     ssrf_filter (1.1.1)
-    stringio (3.0.7)
+    stringio (3.0.8)
     temple (0.10.2)
     terminal-table (3.0.2)
       unicode-display_width (>= 1.1.1, < 3)
