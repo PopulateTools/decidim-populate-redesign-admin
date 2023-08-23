@@ -382,7 +382,7 @@ GEM
       temple
     erubi (1.12.0)
     escape_utils (1.2.2)
-    excon (0.100.0)
+    excon (0.101.0)
     extended-markdown-filter (0.7.0)
       html-pipeline (~> 2.9)
     factory_bot (6.2.1)
