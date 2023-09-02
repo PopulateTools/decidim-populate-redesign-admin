@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/decidim/decidim.git
-  revision: b68de2214f707aafb28966fb9577c09b01021ad2
+  revision: bbccea51f896cfc2d0a34379f691400982de176a
   branch: feature/redesign-admin
   specs:
     decidim (0.28.0.dev)
@@ -436,8 +436,8 @@ GEM
     gemoji (3.0.1)
     geocoder (1.8.2)
     geom2d (0.4.1)
-    globalid (1.1.0)
-      activesupport (>= 5.0)
+    globalid (1.2.0)
+      activesupport (>= 6.1)
     graphlient (0.5.0)
       faraday (>= 1.0)
       faraday_middleware
