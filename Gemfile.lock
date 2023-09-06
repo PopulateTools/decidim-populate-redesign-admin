@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/decidim/decidim.git
-  revision: b49358b90b96ec89e9d81498f2e074a9e70377a0
+  revision: fb4d3c38d191e7e90b9995b9d209426d30486a81
   branch: feature/redesign-admin
   specs:
     decidim (0.28.0.dev)
@@ -782,7 +782,7 @@ GEM
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
       spring (>= 1.2, < 3.0)
-    sprockets (4.2.0)
+    sprockets (4.2.1)
       concurrent-ruby (~> 1.0)
       rack (>= 2.2.4, < 4)
     sprockets-rails (3.4.2)
